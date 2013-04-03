@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title> home </title>
+<title>{% if page.title %} {{ page.title }} {% endif %}</title>
 <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
@@ -17,18 +17,7 @@
 		</ul>
 	</nav>
 </header>
-<article>
-	<ul>
-		
-			<li> <a href="/2013/04/02/article.html"> 折腾jekyll </a> </li>
-		
-			<li> <a href="/2013/04/01/article.html"> Bikes, Black and White </a> </li>
-		
-			<li> <a href="/2013/03/31/article.html"> Bikes, Black and White </a> </li>
-		
-	</ul>
-</article>
-11
+{{ content }}
 <footer>
 	<p> &copy; tingxue 2013 help from github.page & jekyll | All Rights Reserved. </p>
 </footer>

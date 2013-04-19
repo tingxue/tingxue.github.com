@@ -53,7 +53,6 @@ a { color:#333; text-decoration:none; }
 }
 .logo1,.logo2{display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-#channel-nav{line-height:36px;}
 #channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);}
 .logo1{display:inline-block;}
 .logo2{display:inline-block;width:136px;height:35px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png); zoom:0.5;}

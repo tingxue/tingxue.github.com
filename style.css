@@ -44,8 +44,8 @@ a { color:#333; text-decoration:none; }
 	#container{background:none;}
 	.content-wrapper{padding-right:0;}  
 	.rightbar-wrapper{display:none;}
-	.video div{height:240px!important; line-height:240px!important;}
-	.video video,.video embed{height:240px!important;}
+	.video div{height:220px!important; line-height:220px!important;}
+	.video video,.video embed{height:220px!important;}
 }
 
 @media(max-width:600px){

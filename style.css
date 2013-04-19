@@ -27,7 +27,7 @@ a { color:#333; text-decoration:none; }
 #channel-nav span{display:inline-block; vertical-align:top;}
 #channel-nav a { color: #059; }
 /*#container*/
-#container{position:relative; background: url(images/bg_container.gif) 100% 0 repeat-y;}
+#container{position:relative; background: url(data:image/gif;base64,R0lGODlhLQEKAJEAAObm5vX19f///////yH5BAEAAAMALAAAAAAtAQoAAAJLFBSpy+0Po5y02ouz3rz7bYTfSJbmiabqKoUHC8fyTNeyi9j6zvc+i/sJh8RiMWhMKpfMEbIJjUqlz6n1it1Vs9yul7T9isdkiKEAADs=) 100% 0 repeat-y;}
 .content-wrapper {padding-right:330px;}
 .content-box{ padding:0 10px;}
 .content-box h1{line-height:2.375em; font-size:1.25em; padding: 10px 0 20px; text-align:center; font-weight:bold;}

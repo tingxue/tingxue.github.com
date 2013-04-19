@@ -23,12 +23,11 @@ a { color:#333; text-decoration:none; }
 /*#nav*/
 #nav { line-height:1.5; padding:9px 0 5px; font-size:1.125em; text-align:center;}
 #channel-nav { line-height:22px; padding:11px 0 6px; border-bottom: 3px #346890 solid; font-size:0.875em;}
-#channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%}
-.logo1,.logo2{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;}
+#channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%; background-repeat:no-repeat;}
 #channel-nav span{display:inline-block; vertical-align:top;}
 #channel-nav a { color: #059; }
 /*#container*/
-#container{position:relative; background: url(images/bg_container.gif) 100% 0 repeat-y;}
+#container{position:relative; background: url(data:image/gif;base64,R0lGODlhLQEKAJEAAObm5vX19f///////yH5BAEAAAMALAAAAAAtAQoAAAJLFBSpy+0Po5y02ouz3rz7bYTfSJbmiabqKoUHC8fyTNeyi9j6zvc+i/sJh8RiMWhMKpfMEbIJjUqlz6n1it1Vs9yul7T9isdkiKEAADs=) 100% 0 repeat-y;}
 .content-wrapper {padding-right:330px;}
 .content-box{ padding:0 10px;}
 .content-box h1{line-height:2.375em; font-size:1.25em; padding: 10px 0 20px; text-align:center; font-weight:bold;}
@@ -51,10 +50,5 @@ a { color:#333; text-decoration:none; }
 
 @media(max-width:600px){
 }
-.logo1,.logo2{display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-#channel-nav{line-height:36px;}
 #channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);}
-.logo1{display:inline-block;}
-.logo2{display:inline-block;width:136px;height:35px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png); zoom:0.5;}
-}

@@ -23,7 +23,7 @@ a { color:#333; text-decoration:none; }
 /*#nav*/
 #nav { line-height:1.5; padding:9px 0 5px; font-size:1.125em; text-align:center;}
 #channel-nav { line-height:22px; padding:11px 0 6px; border-bottom: 3px #346890 solid; font-size:0.875em;}
-#channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%}
+#channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%; background-repeat:no-repeat;}
 #channel-nav span{display:inline-block; vertical-align:top;}
 #channel-nav a { color: #059; }
 /*#container*/

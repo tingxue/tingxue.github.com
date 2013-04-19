@@ -1,0 +1,60 @@
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:500; }
+ol, ul { list-style:none; }
+fieldset, img { border:0; }
+html { color:#333; background:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
+body { font-size:100%; -webkit-user-select:none;}
+button, input, select, textarea { font-size:100%; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor:pointer; -webkit-appearance:button; }
+table { border-collapse:collapse; border-spacing:0; }
+th { text-align:inherit; }
+img, object, video, embed { max-width:100%; vertical-align:middle;}
+
+a { color:#333; text-decoration:none; }
+.area { max-width:980px; margin:0 auto; }
+.left { float:left; }
+.right { float:right; }
+.clear { clear:both; display:block; height:0; visibility:hidden; font:0/0 arial; }
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; font-size:0; }
+.clearfix { *zoom:1;}
+/*#nav*/
+#nav { line-height:1.5; padding:9px 0 5px; font-size:1.125em; text-align:center;}
+#channel-nav { line-height:22px; padding:11px 0 6px; border-bottom: 3px #346890 solid; font-size:0.875em;}
+#channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%}
+.logo1,.logo2{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;}
+#channel-nav span{display:inline-block; vertical-align:top;}
+#channel-nav a { color: #059; }
+/*#container*/
+#container{position:relative; background: url(images/bg_container.gif) 100% 0 repeat-y;}
+.content-wrapper {padding-right:330px;}
+.content-box{ padding:0 10px;}
+.content-box h1{line-height:2.375em; font-size:1.25em; padding: 10px 0 20px; text-align:center; font-weight:bold;}
+.content-box .text p{line-height:1.5; font-size:1em; padding:1.5em 0 0 0.1875em; text-indent:2em;}
+.content-box img{margin-bottom: 1em;}
+.rightbar-wrapper {position:absolute; right:0; top:0; width:300px;}
+
+.flex-box{display:box; display:-webkit-box;}
+.flex-box .main{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; padding-right:.5em}
+.flex-box .side{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; padding-left:.5em;}
+
+
+@media(max-width:768px){
+#container{background:none;}
+.content-wrapper{padding-right:0;}	
+.rightbar-wrapper{display:none;}
+.video div{height:260px!important; line-height:260px!important;}
+.video video,.video embed{height:260px!important;}
+}
+
+@media(max-width:600px){
+}
+.logo1,.logo2{display:none;}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
+#channel-nav{line-height:36px;}
+#channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);}
+.logo1{display:inline-block;}
+.logo2{display:inline-block;width:136px;height:35px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png); zoom:0.5;}
+}

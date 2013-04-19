@@ -42,7 +42,7 @@ a { color:#333; text-decoration:none; }
 
 @media(max-width:768px){
 #container{background:none;}
-.content-wrapper{padding-right:0;}	
+.content-wrapper{padding-right:0;}  
 .rightbar-wrapper{display:none;}
 .video div{height:260px!important; line-height:260px!important;}
 .video video,.video embed{height:260px!important;}

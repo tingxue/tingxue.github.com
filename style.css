@@ -24,7 +24,6 @@ a { color:#333; text-decoration:none; }
 #nav { line-height:1.5; padding:9px 0 5px; font-size:1.125em; text-align:center;}
 #channel-nav { line-height:22px; padding:11px 0 6px; border-bottom: 3px #346890 solid; font-size:0.875em;}
 #channel-nav .logo{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;background-size:100%}
-.logo1,.logo2{display:inline-block; width:82px;height:21px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo.png); vertical-align:top; margin-left:10px;}
 #channel-nav span{display:inline-block; vertical-align:top;}
 #channel-nav a { color: #059; }
 /*#container*/
@@ -43,7 +42,7 @@ a { color:#333; text-decoration:none; }
 
 @media(max-width:768px){
 #container{background:none;}
-.content-wrapper{padding-right:0;}	
+.content-wrapper{padding-right:0;}  
 .rightbar-wrapper{display:none;}
 .video div{height:260px!important; line-height:260px!important;}
 .video video,.video embed{height:260px!important;}
@@ -51,9 +50,5 @@ a { color:#333; text-decoration:none; }
 
 @media(max-width:600px){
 }
-.logo1,.logo2{display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 #channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);}
-.logo1{display:inline-block;}
-.logo2{display:inline-block;width:136px;height:35px;background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png); zoom:0.5;}
-}

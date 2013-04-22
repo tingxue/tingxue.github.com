@@ -2,7 +2,7 @@
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin:0; padding:0; }
 h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:500; }
 ol, ul { list-style:none; }
-fieldset, img { border:0; }
+fieldset, img { border:none 0; }
 html { color:#333; background:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
 audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
@@ -40,7 +40,7 @@ a { color:#333; text-decoration:none; }
 .flex-box .side{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; padding-left:.5em;}
 
 
-@media(max-width:768px){
+@media screen and (max-device-width:320px){
 	#container{background:none;}
 	.content-wrapper{padding-right:0;}  
 	.rightbar-wrapper{display:none;}
@@ -48,8 +48,11 @@ a { color:#333; text-decoration:none; }
 	.video video,.video embed{height:220px!important;}
 }
 
-@media(max-width:600px){
+@media screen and (min-device-width:768px){
+	h1{}
 }
-@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
+
+/*高dpi图标处理*/
+@media screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 	#channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);
 }

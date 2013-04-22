@@ -35,9 +35,9 @@ a { color:#333; text-decoration:none; }
 .content-box img{margin-bottom: 1em;}
 .rightbar-wrapper {position:absolute; right:0; top:0; width:300px;}
 
-.flex-box{display:box; display:-webkit-box;}
-.flex-box .main{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; padding-right:.5em}
-.flex-box .side{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; padding-left:.5em;}
+.flex-box{display:-webkit-box; display:box;}
+.flex-box .main{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; box-flex:1; padding-right:.5em}
+.flex-box .side{-webkit-box-sizing:content-box; box-sizing:content-box; -webkit-box-flex:1; box-flex:1; padding-left:.5em;}
 
 
 @media screen and (max-width:639px){

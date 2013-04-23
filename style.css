@@ -50,7 +50,8 @@ article .article-main p{font-size:1em; text-indent:2em; padding:0.875em 0;}
 article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
 
 /*评论区*/
-.comment{padding:0 0.625em; border-top:3px solid #346890;}
+#SOHU-comment-main, .sohu-comment-windows,#SOHU-comment-main .sohu-comment-wrapper .sohu-issue-headimg-manage .sohu-issue-manage .Ftxtarea-keydown .Ftxtarea{font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica;}
+.comment{margin:0 0.625em; border-top:3px solid #346890;}
 
 @media screen and (max-width:639px){
 	header nav .nav-main{padding:0 0.75em 0 1em;}

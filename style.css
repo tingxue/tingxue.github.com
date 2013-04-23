@@ -32,7 +32,8 @@ header .search .text{float:left; width:13.75em; height:2em; padding:0 0.3125em; 
 header .search .submit{float:left; width:5.375em; height:2em; border:none 0; background-color:#f0f0f0; text-align:center;}
 
 .sub-nav{height:1.375em; padding:0.875em 0; margin:0 0.625em; border-bottom:3px solid #346890;}
-.sub-nav .logo{float:left;}
+.sub-nav .logo{float:left; height:22px;}
+.sub-nav .logo img{vertical-align:top;}
 .sub-nav .sub-nav-list{float:left; padding-left:0.75em;}
 .sub-nav .sub-nav-list li{float:left; line-height:1.375em;}
 .sub-nav .sub-nav-list a{padding:0 1em;}
@@ -52,7 +53,12 @@ article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
 .comment{padding:0 0.625em; border-top:3px solid #346890;}
 
 @media screen and (max-width:639px){
+	header nav .nav-main{padding:0 0.75em 0 1em;}
+	header nav .nav-mysohu a{padding:0 0.75em;}
+	header .search{display:none;}
+	.sub-nav .sub-nav-list a{padding:0 0.5em;}
 	article .video,article .video div,article .video embed,article .video video{height:220px!important; line-height:220px!important;}
+	article .article-summary{padding:0.5em 0.75em;}
 }
 
 @media screen and (min-width:640px){

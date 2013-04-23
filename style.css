@@ -7,7 +7,7 @@ html { color:#333; background-color:#fff; -webkit-text-size-adjust:100%; -ms-tex
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
 audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
 body { font-size:100%; -webkit-user-select:none;}
-button, input, select, textarea { font-size:100%; }
+button, input, select, textarea { font-size:100%; -webkit-border-radius:none; border-radius:none;}
 button, input[type="button"], input[type="reset"], input[type="submit"] { cursor:pointer; -webkit-appearance:button; }
 table { border-collapse:collapse; border-spacing:0; }
 th { text-align:inherit; }

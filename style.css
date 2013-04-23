@@ -52,7 +52,7 @@ article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
 .comment{padding:0 0.625em; border-top:3px solid #346890;}
 
 @media screen and (max-width:639px){
-	article .video,article .video .text-video-focus,article .video embed,article .video video{height:220px!important;}
+	article .video,article .video .text-video-focus,article .video embed,article .video video{height:220px!important; line-height:220px!important;}
 	article .video .text-video-focus,article .video embed,article .video video{margin:0 auto;}
 }
 

@@ -47,20 +47,19 @@ article .article-main{line-height:1.75em; color:#333;}
 article .article-pic{text-align:center; padding:1.125rem 0;}
 article .article-main p{font-size:1em; text-indent:2em; padding:0.875em 0;}
 article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
-article .video embed{height:220px!important;}
 
 /*评论区*/
 .comment{padding:0 0.625em; border-top:3px solid #346890;}
 
 @media screen and (max-width:639px){
-	h1{}
+	article .video embed{height:220px!important;}
+	article .video .text-video-focus{height:220px!important;}
 }
 
 @media screen and (min-width:640px){
 	.sub-nav{margin:0 0.9375em;}
 	article{padding:0 3.125em;}
 	.comment{padding:0 0.925em;}
-	article .video embed{height:450px!important;}
 }
 
 @media screen and (min-width:1024px){

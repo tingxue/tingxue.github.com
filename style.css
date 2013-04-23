@@ -3,7 +3,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:500; }
 ol, ul { list-style:none; }
 fieldset, img { border:none 0; }
-html { color:#333; background-color:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+html { color:#333; background-color:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
 audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
 body { font-size:100%; -webkit-user-select:none;}

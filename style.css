@@ -46,6 +46,7 @@ article .article-summary{padding:0.875em 1.75em; line-height:1.875em; border:1px
 article .article-main{line-height:1.75em; color:#333;}
 article .article-pic{text-align:center; padding:1.125rem 0;}
 article .article-main p{font-size:1em; text-indent:2em; padding:0.875em 0;}
+article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
 
 /*评论区*/
 .comment{padding:0 0.625em; border-top:3px solid #346890;}

@@ -53,13 +53,19 @@ article .video{max-width:550px; margin:0 auto; padding: 0.875em 0;}
 #SOHU-comment-main, .sohu-comment-windows,#SOHU-comment-main .sohu-comment-wrapper .sohu-issue-headimg-manage .sohu-issue-manage .Ftxtarea-keydown .Ftxtarea{font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica;}
 .comment{margin:0 0.625em; border-top:3px solid #346890;}
 
+
 @media screen and (max-width:639px){
 	header nav .nav-main{padding:0 0.75em 0 1em;}
 	header nav .nav-mysohu a{padding:0 0.75em;}
 	header .search{display:none;}
 	.sub-nav .sub-nav-list a{padding:0 0.5em;}
-	article .video,article .video div,article .video embed,article .video video{height:220px!important; line-height:220px!important;}
+	article .video div,article .video embed,article .video video{ height:100%!important; max-height:400px;}
+	article .video div{margin:0 auto; line-height:100%!important;}
 	article .article-summary{padding:0.5em 0.75em;}
+}
+
+@media screen and (max-width:480px){
+	article .video div,article .video embed,article .video video{ height:100%!important; max-height:300px;}
 }
 
 @media screen and (min-width:640px){

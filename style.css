@@ -31,6 +31,8 @@ header .search{float:right; height:2em; line-height:2em; border:1px solid #e6e6e
 header .search .text{float:left; width:13.75em; height:2em; padding:0 0.3125em; border:none 0; background-color:#fff; -webkit-appearance:none; outline:none;}
 header .search .submit{float:left; width:5.375em; height:2em; border:none 0; background-color:#f0f0f0; text-align:center;}
 
+article .article-more i{background-image:url(images/bg.png); background-size:320px auto;}
+
 .sub-nav{height:1.375em; padding:0.875em 0; margin:0 0.625em; border-bottom:3px solid #346890;}
 .sub-nav .logo{float:left; height:22px;}
 .sub-nav .logo img{vertical-align:top;}
@@ -41,12 +43,16 @@ header .search .submit{float:left; width:5.375em; height:2em; border:none 0; bac
 /*文章内容区*/
 article{padding:0 0.625em;}
 article h1{line-height:2.25rem; font-size:1.625em; padding:1.875rem 0 0; text-align:center;}
-article .article-desc{line-height:1.625em; padding:1em 0 1.25em; color:#999; text-align:center;}
+article .article-desc{height:1.625em; line-height:1.625em; padding:1em 0 1.25em; color:#999; text-align:center; overflow:hidden;}
+article .article-desc .source{margin:0 1em;}
 article .article-desc a{color:#059;}
 article .article-summary{padding:0.875em 1.75em; line-height:1.875em; border:1px solid #e8e8e8; text-indent:2em;color:#999; margin-bottom:0.5em;}
 article .article-pic{text-align:center; padding:1.125rem 0;}
 article  p{font-size:1em; line-height:1.75em; color:#333; text-indent:2em; padding:0.875em 0;}
 article .video{max-width:450px; margin:0 auto; padding: 0.875em 0;}
+article .article-more{text-align:center; text-indent:0;}
+article .article-more a{display:inline-block; line-height:2em; padding:0 2px; background-color:#f6f6f6; border:1px solid #e8e8e8;}
+article .article-more i{display:inline-block; width:10px; height:10px; background-position:0 0; margin:0 1em;}
 
 /*评论区*/
 #SOHU-comment-main, .sohu-comment-windows,#SOHU-comment-main .sohu-comment-wrapper .sohu-issue-headimg-manage .sohu-issue-manage .Ftxtarea-keydown .Ftxtarea{font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica;}
@@ -57,8 +63,13 @@ article .video{max-width:450px; margin:0 auto; padding: 0.875em 0;}
 	header nav .nav-main{padding:0 0.75em 0 1em;}
 	header nav .nav-mysohu a{padding:0 0.75em;}
 	header .search{display:none;}
-	.sub-nav .sub-nav-list a{padding:0 0.5em;}
-	article .article-summary{padding:0.5em 0.75em;}
+	.sub-nav{display:none;}
+	article h1{font-size:1.375em; line-height:1.875rem; padding:0.875rem 0 0;}
+	article .article-desc{padding:0.5em 0 0.1875em; margin:0 0 0.5em; border-bottom:1px solid #e3e3e3;}
+	article .article-desc .source{display:none;}
+	article .article-desc .time{float:left;}
+	article .article-desc .comm{float:right;}
+	article .article-summary{display:none;}
 	article .video video,article .video embed{height:300px;}
 }
 
@@ -67,7 +78,7 @@ article .video{max-width:450px; margin:0 auto; padding: 0.875em 0;}
 }
 
 @media screen and (min-width:481px){
-	article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto;}
+	/*article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto;}*/
 }
 
 @media screen and (min-width:640px){
@@ -75,7 +86,7 @@ article .video{max-width:450px; margin:0 auto; padding: 0.875em 0;}
 	article{padding:0 3.125em;}
 	.comment{padding:0 0.925em;}
 	article .video video,article .video embed{height:375px;}
-	
+	article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto;}
 }
 
 @media screen and (min-width:1024px){

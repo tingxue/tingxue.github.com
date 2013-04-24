@@ -44,7 +44,9 @@ article .article-more i{background-image:url(images/bg.png); background-size:320
 article{padding:0 0.625em;}
 article h1{line-height:2.25rem; font-size:1.625em; padding:1.875rem 0 0; text-align:center;}
 article .article-desc{height:1.625em; line-height:1.625em; padding:1em 0 1.25em; color:#999; text-align:center; overflow:hidden;}
-article .article-desc .source{margin:0 1em;}
+article .article-desc .source{margin:0 0.5em 0 1em;}
+article .article-desc .source i,article .article-desc .source em{font-style:normal;}
+article .article-desc .source em{margin-right:0.5em;}
 article .article-desc a{color:#059;}
 article .article-summary{padding:0.875em 1.75em; line-height:1.875em; border:1px solid #e8e8e8; text-indent:2em;color:#999; margin-bottom:0.5em;}
 article .article-pic{text-align:center; padding:1.125rem 0;}
@@ -58,15 +60,17 @@ article .article-more i{display:inline-block; width:10px; height:10px; backgroun
 #SOHU-comment-main, .sohu-comment-windows,#SOHU-comment-main .sohu-comment-wrapper .sohu-issue-headimg-manage .sohu-issue-manage .Ftxtarea-keydown .Ftxtarea{font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica;}
 .comment{margin:0 0.625em; border-top:3px solid #346890;}
 
-
-@media screen and (max-width:639px){
+/*phone + small pad */
+@media screen and (max-width:640px){
 	header nav .nav-main{padding:0 0.75em 0 1em;}
 	header nav .nav-mysohu a{padding:0 0.75em;}
 	header .search{display:none;}
 	.sub-nav{display:none;}
-	article h1{font-size:1.375em; line-height:1.875rem; padding:0.875rem 0 0;}
-	article .article-desc{padding:0.5em 0 0.1875em; margin:0 0 0.5em; border-bottom:1px solid #e3e3e3;}
-	article .article-desc .source{display:none;}
+	article h1{font-size:1.375em; line-height:1.875rem; padding:0.875rem 0 0; text-align:left;}
+	article .article-desc{font-size:0.6875em; padding:0.5em 0 0.1875em; margin:0 0 0.5rem; border-bottom:1px solid #e3e3e3;}
+	article .article-desc .source i{display:none;}
+	article .article-desc .source em{display:block;}
+	article .article-desc .source{float:left; height:1.625em; max-width:7em; overflow:hidden; margin:0 0 0 0.5em;}
 	article .article-desc .time{float:left;}
 	article .article-desc .comm{float:right;}
 	article .article-summary{display:none;}
@@ -77,11 +81,8 @@ article .article-more i{display:inline-block; width:10px; height:10px; backgroun
 	article .video video,article .video embed{ max-height:240px;}
 }
 
-@media screen and (min-width:481px){
-	/*article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto;}*/
-}
-
-@media screen and (min-width:640px){
+/*ipad portrait + ather pad*/
+@media screen and (min-width:641px){
 	.sub-nav{margin:0 0.9375em;}
 	article{padding:0 3.125em;}
 	.comment{padding:0 0.925em;}
@@ -89,11 +90,26 @@ article .article-more i{display:inline-block; width:10px; height:10px; backgroun
 	article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto;}
 }
 
+/*ipad landscape */
 @media screen and (min-width:1024px){
-	h1{}
 }
 
 /*高dpi图标处理*/
 @media screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:1.5 / 1), only screen and (min-device-pixel-ratio:1.5), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 	#channel-nav .logo{background-image:url(http://m.tv.sohu.com/upload/touch/120711/skin/images/logo@2x.png);
 }
+
+/*
+name -- px -- device -- pixel density
+iPhone -- 320 x 480 -- 320 x 480 -- 1
+iPhone 4 -- 640 x 960 -- 320 x 480 -- 2
+iPhone 5 -- 640 x 1136 -- 320 x 568 -- 2
+Samsung Galaxy S I and II -- 480 x 800 -- 320 x 533 -- 1.5
+Samsung Galaxy S III -- 720 x 1280 -- 360 x 640 -- 2
+HTC Evo 3D -- 540 x 960 -- 360 x 640 -- 1.5
+
+iPad 1 and 2 -- 768 x 1024 -- 768 x 1024 -- 1
+iPad 3 -- 1536 x 2048 -- 768 x 1024 -- 2
+
+Amazon Kindle Fire -- 1024 x 600 -- 1024 x 600
+*/

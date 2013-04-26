@@ -64,7 +64,6 @@ article .article-more i{display:inline-block; width:10px; height:10px; backgroun
 article .article-share{font-size:0; padding:1.5625rem 0 1.25rem;}
 article .article-share li{display:inline-block; line-height:1.5625em; color:#666; vertical-align:top; font-size:1rem;}
 article .article-share a{display:inline-block; width:1.5625em; height:1.5625em; margin:0 0.5em; vertical-align:top;}
-article .article-share a:last-child{margin-right:0;}
 article .share-renren a{background-position:-130px 0;}
 article .share-weixin a{background-position:-185px 0;}
 article .share-kongjian a{background-position:-240px 0;}
@@ -137,6 +136,14 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto; padding:1.125rem 0;}
 	article  p{line-height: 1.75em; padding: 0.875em 0;}
 	article .article-share{text-align:right;}
+	article .article-share li{display:inline-block; line-height:2.1875em; color:#666; vertical-align:top; font-size:1rem;}
+	article .article-share a{display:inline-block; width:2.1875em; height:2.1875em; margin:0 0.625em; vertical-align:top; background-size:448px auto;}
+	article .article-share li:last-child a{margin-right:0;}
+	article .share-renren a{background-position:-182px 0;}
+	article .share-weixin a{background-position:-259px 0;}
+	article .share-kongjian a{background-position:-336px 0;}
+	article .share-weibo a{background-position:-413px 0;}
+
 	.ad-2{text-align:center;}
 	.ad-2 .ad{padding:2.25em 0;}
 	.relative-news{padding-bottom:4.175em;}
@@ -147,7 +154,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 
 	.fix-bar{position:fixed; right:-3px; top:60%; width:56px; background-color:#f6f6f6; -webkit-box-shadow:0 0 3px #f4f4f4; box-shadow:0 0 3px #f4f4f4; border-left:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; z-index:99;}
 	.fix-bar .top{display:block; height:49px;border-top:1px solid #e8e8e8; background-position:-222px -27px;}
-	.fix-bar .comm{display:block; height:0.75rem; line-height:0.75rem; padding:2rem 0.1875rem 0.5rem 0; text-align:center; color:#a0a0a0; font-size:0.5em;  -webkit-box-shadow:inset -1px 2px 3px #e8e8e8; box-shadow:inset -1px 2px 3px #e8e8e8; background-position:-167px -32px; -webkit-text-size-adjust:none;}
+	.fix-bar .comm{display:block; height:0.75rem; line-height:0.75rem; padding:2rem 0.1875rem 0.5rem 0; text-align:center; color:#a0a0a0; font-size:0.625em;  -webkit-box-shadow:inset -1px 2px 3px #e8e8e8; box-shadow:inset -1px 2px 3px #e8e8e8; background-position:-167px -32px; -webkit-text-size-adjust:none;}
 }
 
 /*ipad landscape */

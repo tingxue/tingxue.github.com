@@ -101,7 +101,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	article .video .text-video-focus div{min-height:240px;}
 	article .article-pic{position:relative; max-height:174px; overflow:hidden;}
 	article .article-pic-full{margin:0 -0.625em;}
-	article .article-pic i{position:absolute; right:3px; bottom:5px; width:21px; height:21px; background:url(images/zoom.png) no-repeat; background-size:21px 21px;}
+	article .article-pic i{position:absolute; right:3px; bottom:5px; width:21px; height:21px; background:url(images/zoom.png) no-repeat; background-size:21px auto;}
 	article .article-pic-full i,.ad-2,.relative-news .ad-3,.fix-bar,.main-content .sidebar{display:none;}
 }
 

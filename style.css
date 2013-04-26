@@ -154,7 +154,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 
 	.fix-bar{position:fixed; right:-3px; top:60%; width:56px; background-color:#f6f6f6; -webkit-box-shadow:0 0 3px #f4f4f4; box-shadow:0 0 3px #f4f4f4; border-left:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; z-index:99;}
 	.fix-bar .top{display:block; height:49px;border-top:1px solid #e8e8e8; background-position:-222px -27px;}
-	.fix-bar .comm{display:block; height:0.75rem; line-height:0.75rem; padding:2rem 0.1875rem 0.5rem 0; text-align:center; color:#a0a0a0; font-size:0.625em;  -webkit-box-shadow:inset -1px 2px 3px #e8e8e8; box-shadow:inset -1px 2px 3px #e8e8e8; background-position:-167px -32px; -webkit-text-size-adjust:none;}
+	.fix-bar .comm{display:block; height:0.75rem; line-height:0.75rem; padding:2rem 0.1875rem 0.5rem 0; text-align:center; color:#a0a0a0; font-size:0.75em;  -webkit-box-shadow:inset -1px 2px 3px #e8e8e8; box-shadow:inset -1px 2px 3px #e8e8e8; background-position:-167px -32px; -webkit-text-size-adjust:none;}
 }
 
 /*ipad landscape */

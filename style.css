@@ -101,7 +101,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	article .article-pic{position:relative; max-height:174px; overflow:hidden;}
 	article .article-pic-full{margin:0 -0.625em;}
 	article .article-pic i{position:absolute; right:3px; bottom:5px; width:21px; height:21px; background-position:-130px -40px;}
-	article .article-pic-full i,.ad-2,.relative-news .ad-3,.fix-bar{display:none;}
+	article .article-pic-full i,.ad-2,.relative-news .ad-3,.fix-bar,.main-content .sidebar{display:none;}
 }
 
 @media screen and (max-width:480px){
@@ -145,7 +145,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	article .share-weibo a{background-position:-413px 0;}
 
 	.ad-2{text-align:center;}
-	.ad-2 .ad{padding:2.25em 0;}
+	.ad-2 .ad{padding:2.25em 0 0;}
 	.relative-news{padding-bottom:4.175em;}
 	.relative-news .tit{padding-bottom:0.875rem;}
 	.relative-news .news-con{float:left; max-width:23em; overflow:hidden;}
@@ -155,11 +155,17 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	.fix-bar{position:fixed; right:-3px; top:60%; width:56px; background-color:#f6f6f6; -webkit-box-shadow:0 0 3px #f4f4f4; box-shadow:0 0 3px #f4f4f4; border-left:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; z-index:99;}
 	.fix-bar .top{display:block; height:49px;border-top:1px solid #e8e8e8; background-position:-222px -27px;}
 	.fix-bar .comm{display:block; height:0.75rem; line-height:0.75rem; padding:2rem 0.1875rem 0.5rem 0; text-align:center; color:#a0a0a0; font-size:0.75em;  -webkit-box-shadow:inset -1px 2px 3px #e8e8e8; box-shadow:inset -1px 2px 3px #e8e8e8; background-position:-167px -32px; -webkit-text-size-adjust:none;}
+	.comment{margin-top:2.25em;}
+	.main-content .sidebar{display:none;}
 }
 
 /*ipad landscape */
 @media screen and (min-width:1024px){
-
+	.main-content{margin:0 1.875em; padding-right:170px; overflow:hidden;}
+	.main-content article{float:left; padding:0 3.125em 0 1.125em;}
+	.main-content .sidebar{display:block; float:right; width:10.625em; margin-right:-10.625em; padding-top:2.25em;}
+	.main-content .comm-list{margin-top:1.25em; border-top:3px solid #336892; background-color:#f7f7f7; padding-bottom:2000px; margin-bottom:-2000px;}
+	.main-content .comm-list h3{font-size:1.125em; font-weight:bold; text-align:center; padding-top:1rem;}
 }
 
 /*高dpi图标处理*/

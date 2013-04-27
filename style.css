@@ -75,7 +75,7 @@ article .share-weibo a{background-position:-295px 0;}
 
 /*相关新闻*/
 .relative-news{margin: 0 0.625em; padding-bottom:1.625em; overflow:hidden;}
-.relative-news .tit{font-size:1.125em; color:#000; font-weight:bold; padding-bottom:0.75rem;}
+.relative-news .tit{height:1.625rem; line-height:1.625rem; font-size:1.125em; color:#000; font-weight:bold; padding-bottom:0.75rem;}
 .relative-news .tit i{float:left; width:0.1875rem; height:1.0625rem; margin:0.1875rem 0.5rem 0 0; background-color:#32678f; vertical-align:top;}
 .relative-news .list li{height:1.875rem; line-height:1.875rem; font-size:0.875em; overflow:hidden; background-position:-316px -28px; padding-left:0.75rem; text-overflow :ellipsis; white-space:nowrap}
 

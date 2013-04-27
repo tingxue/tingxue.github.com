@@ -75,8 +75,7 @@ article .share-weibo a{background-position:-295px 0;}
 
 /*相关新闻*/
 .relative-news{margin: 0 0.625em; padding-bottom:1.625em; overflow:hidden;}
-.relative-news .tit{height:1.625rem; line-height:1.625rem; font-size:1.125em; color:#000; font-weight:bold; padding-bottom:0.75rem;}
-.relative-news .tit i{float:left; width:0.1875rem; height:1.0625rem; margin:0.1875rem 0.5rem 0 0; background-color:#32678f; vertical-align:top;}
+.relative-news .tit{height:1em; line-height:1em; font-size:1.125em; color:#000; font-weight:bold; margin-bottom:0.75rem; border-left:3px solid #336892; padding-left:0.5rem;}
 .relative-news .list li{height:1.875rem; line-height:1.875rem; font-size:0.875em; overflow:hidden; background-position:-316px -28px; padding-left:0.75rem; text-overflow :ellipsis; white-space:nowrap}
 
 .ad img{vertical-align:top;}
@@ -149,7 +148,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	.ad-2{text-align:center;}
 	.ad-2 .ad{padding:2.25em 0 0;}
 	.relative-news{padding-bottom:4.175em;}
-	.relative-news .tit{padding-bottom:0.875rem;}
+	.relative-news .tit{margin-bottom:0.875rem;}
 	.relative-news .news-con{float:left; max-width:23em; overflow:hidden;}
 	.relative-news .ad-3{float:right; max-width:20em; margin-top:0.5em;}
 	footer{font-size:0.75rem; line-height:2.75rem;}

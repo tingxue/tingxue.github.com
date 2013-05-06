@@ -34,7 +34,7 @@ header .nav-search-now .submit{-webkit-box-sizing:border-box; box-sizing:border-
 header .nav-main .ico{position:relative; display:block; width:0.875em; height:100%; background-position:-26px 15px; padding:0 0.875em 0  0.9375em;}
 header .nav-main .nav-main-con{display:none;}
 header .nav-main-now .ico{ padding:0 1em 0  0.9375em; margin-right:-2px; -webkit-box-shadow:2px -1px #ddba00; box-shadow:2px -1px 2px #ddba00; background-color:#f5f5f5; background-position:-26px -55px;}
-header .nav-main-now .nav-main-con{display:block; position:absolute; left:0; top:2.685rem; width:100%; background-color:#f5f5f5; -webkit-box-shadow:0 2px 2px #d2d2d2; box-shadow:0 2px 2px #d2d2d2; -webkit-box-sizing:border-box; box-sizing:border-box; font-size:0; z-index:100;}
+header .nav-main-now .nav-main-con{display:block; position:absolute; left:0; top:2.68rem; width:100%; background-color:#f5f5f5; -webkit-box-shadow:0 2px 2px #d2d2d2; box-shadow:0 2px 2px #d2d2d2; -webkit-box-sizing:border-box; box-sizing:border-box; font-size:0; z-index:100;}
 header .nav-main-con a,header .nav-main-con em{font-size:0.875rem; line-height:2.875rem; display:inline-block; width:16.66666%; -webkit-box-sizing:border-box; box-sizing:border-box; border-top:1px dashed #dbdbdb; border-left:1px dashed #dbdbdb; text-align:center; vertical-align:top;}
 header .nav-mysohu a{display:inline-block; padding:0 0.5em 0 0.625em;}
 
@@ -123,7 +123,7 @@ footer{line-height:1.375rem; font-size:0.5rem; background-color:#eee; color:#666
 	header .nav-main-con a:nth-child(-n+7){border-top:none 0;}
 	header .nav-main-con a:nth-child(7n+1){border-left:none 0;}
 	header .nav-main-now .ico{background-position:-21px -67px; padding-right:1.75em;}
-	header .nav-main-now .nav-main-con,header .nav-search-now .search-con{top:3.125rem;}
+	header .nav-main-now .nav-main-con,header .nav-search-now .search-con{top:3.12rem;}
 	.sub-nav,.comment,.relative-news,.sub-nav{margin:0 1.875em;}
 
 	.sub-nav{height:2.5em; line-height:2.5em; padding:0.3125em 0; border-bottom:3px solid #346890; overflow:hidden;}

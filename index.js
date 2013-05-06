@@ -155,6 +155,12 @@
 		doc.body.ontouchstart = function(){
 			return false;
 		};
+		doc.body.ontouchmove = function(){
+			return false;
+		};
+		doc.body.ontouchend = function(){
+			return false;
+		};
 		controller.bindImages(article.getElementsByTagName("img"));
 	};
 

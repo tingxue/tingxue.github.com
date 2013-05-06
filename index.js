@@ -111,7 +111,7 @@
 			controller.bindImages(doc.getElementById("more-content").getElementsByTagName("img"));
 		},
 		imageClick : function(self){
-			if(iFlag){
+			if(!iFlag){
 				pad_container.style.display = "block";
 				doc.getElementById("fullImg").src = self.src;
 			}

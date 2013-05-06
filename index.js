@@ -152,6 +152,12 @@
 		pad_container.onclick = function(){
 			controller.hideMask();
 		};
+		pad_container.ontouchstart = function(){
+			alert("start");
+		};
+		pad_container.ontouchend = function(){
+			alert("end");
+		};
 		controller.bindImages(article.getElementsByTagName("img"));
 	};
 

@@ -153,10 +153,7 @@
 			controller.hideMask();
 		};
 		doc.body.ontouchstart = function(){
-			alert("start");
-		};
-		doc.body.ontouchend = function(){
-			alert("end");
+			return false;
 		};
 		controller.bindImages(article.getElementsByTagName("img"));
 	};

@@ -152,10 +152,10 @@
 		pad_container.onclick = function(){
 			controller.hideMask();
 		};
-		pad_container.ontouchstart = function(){
+		doc.body.ontouchstart = function(){
 			alert("start");
 		};
-		pad_container.ontouchend = function(){
+		doc.body.ontouchend = function(){
 			alert("end");
 		};
 		controller.bindImages(article.getElementsByTagName("img"));

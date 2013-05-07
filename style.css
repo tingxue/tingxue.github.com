@@ -67,7 +67,7 @@ article .share-weibo a{background-position:-295px 0;}
 #SOHU-comment-main .sohu-comment-wrapper #article_info_sohu{padding-top:0;}
 
 /*相关新闻*/
-.relative-news{margin: 0 0.625em; padding-bottom:1.625em; overflow:hidden;}
+.relative-news{margin: 0 0.625em; padding-bottom:1em; overflow:hidden;}
 .relative-news .tit{height:1em; line-height:1em; font-size:1.125em; color:#000; font-weight:bold; margin-bottom:0.75rem; border-left:3px solid #336892; padding-left:0.5rem;}
 .relative-news .list li{height:1.875rem; line-height:1.875rem; font-size:0.875em; overflow:hidden; background-position:-316px -28px; padding-left:0.75rem; text-overflow :ellipsis; white-space:nowrap}
 

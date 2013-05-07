@@ -74,7 +74,7 @@ article .share-weibo a{background-position:-295px 0;}
 .ad img{vertical-align:top;}
 .main-content .sidebar{display:none;}
 
-footer{line-height:1.375rem; font-size:0.625rem; background-color:#eee; color:#666; text-align:center;}
+footer{line-height:1.375rem; font-size:0.625rem; background-color:#eee; color:#666; text-align:center; -webkit-text-size-adjust:none;}
 
 /*phone + small pad */
 @media screen and (max-width:640px){

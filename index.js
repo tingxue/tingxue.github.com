@@ -1,4 +1,5 @@
 ﻿(function(iFlag){
+	iFlag = document.body.offsetWidth <= 640 ? 0 : 1;
 	var doc = document,
 		nav_main = doc.getElementById("nav-main"),
 		nav_search = doc.getElementById("nav-search"),
@@ -37,18 +38,18 @@
 				})()
 			}
 			else{
-				var changyan_topic_id = "373626563";
-				var changyan_has_index_tab = false;
-				var changyan_default_index = "hot";
-				var changyan_page_limit = "10";
-				var changyan_textarea_first = true;
-				var changyan_has_show_more = false;
-				var changyan_has_to_top = false;
-				var changyan_textarea_tip = "我来说两句";
-				var changyan_posted_tip = "发表成功，感谢您的参与";
-				var changyan_do_after_post = "refresh";
-				var changyan_has_img_upload = true;
-				var changyan_clt_expires = 3000;
+				window.changyan_topic_id = "373626563";
+				window.changyan_has_index_tab = false;
+				window.changyan_default_index = "hot";
+				window.changyan_page_limit = "10";
+				window.changyan_textarea_first = true;
+				window.changyan_has_show_more = false;
+				window.changyan_has_to_top = false;
+				window.changyan_textarea_tip = "我来说两句";
+				window.changyan_posted_tip = "发表成功，感谢您的参与";
+				window.changyan_do_after_post = "refresh";
+				window.changyan_has_img_upload = true;
+				window.changyan_clt_expires = 3000;
 				(function() {
 				    var cy = document.createElement('script'); cy.type = 'text/javascript'; cy.async = true;
 				    cy.src = 'http://changyan.itc.cn/static/wl/cmt/h5.min.js';

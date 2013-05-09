@@ -19,25 +19,28 @@
 	}
 </script>
 </head>
-<body>
+<body id="page">
 <img src="transparent.gif" style="display:none;">
 <header>
 	<div class="logo"><a href=""><img src="images/logo.png"></a></div>
 	<ul class="nav">
-		<li class="nav-mysohu"><a href="">我的搜狐</a></li>
+		<li class="nav-mysohu"><a href="http://i.sohu.com/">我的搜狐</a></li>
 		<li class="nav-main nav-main -now" id="nav-main">
 			<span class="ico" id="nav-main-btn"></span>
 			<div class="nav-main-con">
-				<a href="">首页</a><a href="">新闻</a><a href="">军事</a><a href="">体育</a><a href="">NBA</a><a href="">娱乐</a><a href="">视频</a><a href="">财经</a><a href="">股票</a><a href="">IT</a><a href="">汽车</a><a href="">房产</a><a href="">家居</a><a href="">女人</a><a href="">母婴</a>
-				<a href="">教育</a><a href="">健康</a><a href="">旅游</a><a href="">文化</a><a href="">BBS</a><a href="">博客</a><em>&nbsp;</em><em>&nbsp;</em><em>&nbsp;</em>
+				<a href="http://www.sohu.com/">首页</a><a href="http://news.sohu.com/">新闻</a><a href="http://mil.sohu.com/">军事</a><a href="http://sports.sohu.com/">体育</a><a href="http://sports.sohu.com/nba.shtml">NBA</a><a href="http://yule.sohu.com/">娱乐</a><a href="http://tv.sohu.com/">视频</a><a href="http://business.sohu.com/">财经</a><a href="http://stock.sohu.com/">股票</a><a href="http://it.sohu.com/">IT</a><a href="http://auto.sohu.com/">汽车</a><a href="http://house.focus.cn/">房产</a><a href="http://home.sohu.com/">家居</a><a href="http://women.sohu.com/">女人</a><a href="http://baobao.sohu.com/">母婴</a>
+				<a href="http://learning.sohu.com/">教育</a><a href="http://health.sohu.com/">健康</a><a href="http://travel.sohu.com/">旅游</a><a href="http://cul.sohu.com/">文化</a><a href="http://club.sohu.com/">BBS</a><a href="http://blog.sohu.com/">博客</a><em>&nbsp;</em><em>&nbsp;</em><em>&nbsp;</em>
 			</div>
 		</li>
 		<li class="nav-search nav-search -now" id="nav-search">
 			<span class="ico" id="nav-search-btn"></span>
 			<div class="search-con">
 				<div class="search-inner">
-					<input class="text" type="text">
-					<input class="submit" type="submit" value="搜狗搜索">
+					<form action="http://news.sogou.com/news" method="get" target="_blank" id="searchform" name="searchform"autocomplete="off"> 
+						<input class="text" type="text" name="query" id="query">
+						<input type="hidden" name="t" id="t" value="news">
+						<input class="submit" type="submit" value="搜狗搜索">
+					</form>
 				</div>				
 			</div>
 		</li>
@@ -45,12 +48,12 @@
 </header>
 
 <div class="sub-nav">
-	<div class="logo"><a href=""><img width="95" height="22" src="images/channel-logo.png"></a></div>
+	<div class="logo"><a href="http://news.sohu.com/"><img width="95" height="22" src="images/channel-logo.png"></a></div>
 	<ul class="sub-nav-list">
-		<li><a href="">宏观</a></li>
-		<li><a href="">金融</a></li>
-		<li><a href="">公司</a></li>
-		<li><a href="">金融人物</a></li>
+		<li><a href="http://business.sohu.com/guoneixinwen.shtml">宏观</a></li>
+		<li><a href="http://business.sohu.com/FinancialNews/">金融</a></li>
+		<li><a href="http://business.sohu.com/gongsi.shtml">公司</a></li>
+		<li><a href="http://business.sohu.com/cjrw/">金融人物</a></li>
 	</ul>
 	<div class="ad-1"><div class="ad"><a href=""><img src="images/ad-1.png"></a></div></div>
 </div>
@@ -58,9 +61,9 @@
 <div class="main-content">
 	<article>
 		<div id="article">
-			<h1>灵关镇通往宝兴县城道路再次中断 正全力打通</h1>
+			<h1 id="title">灵关镇通往宝兴县城道路再次中断 正全力打通</h1>
 			<div class="article-desc"><span class="time">2013-04-22 10:30</span><span class="source"><i>来源：</i><em>中国新闻网</em><em>新华网</em></span><span class="comm"><a href="">我来说两句(95470)</a></span></div>
-			<p class="article-summary">昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。</p>
+			<p class="article-summary" id="article-summary">昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。</p>
 			<div class="video">
 				<div class="text-video-focus"> 
 					<script type="text/javascript" src="http://tv.sohu.com/upload/swf/showVrsPlayer.js"></script><script src=" http://tv.sohu.com/commonfrag/vrs_flashPlayer.inc"></script> 
@@ -73,6 +76,7 @@
 				<a href="javascript:;">
 					<img src="transparent.gif" padsrc="http://photocdn.sohu.com/20130423/Img373632456.jpg" phonesrc="http://photocdn.sohu.com/20130423/Img373632456.jpg" alt="舒正山指着新房说：“我将乔迁宴席的猪肉分给村民吃，竟被大家误传是灾后大鱼大肉。”" onload="checkImg(this);">				
 					<i></i>
+					<span>我将乔迁宴席的猪肉分给村民吃，竟被大家误传是灾后大鱼大肉</span>
 				</a>
 			</div>
 			<p>人民网海南视窗宝兴4月22日电4月22日下午，本网特派记者在前往雅安地震重灾区宝兴县城途中，宝兴县灵关镇中坝村近百名村民集体向记者反映情况，希望帮助澄清媒体近日一则“中坝村村民地震期间大吃大喝”的不实报道。</p>
@@ -89,13 +93,33 @@
 		</div>
 		<ul class="article-share">
 			<li>分享到：</li>
-			<li class="share-renren"><a href=""></a></li>
-			<li class="share-weixin"><a href=""></a></li>
-			<li class="share-kongjian"><a href=""></a></li>
-			<li class="share-weibo"><a href=""></a></li>
+			<li class="share-renren"><a href="http://widget.renren.com/dialog/share?resourceUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fi%2F&title=灵关镇通往宝兴县城道路再次中断 正全力打通&pic=http://photocdn.sohu.com/20130423/Img373632456.jpg&description=昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。" target="_blank"></a></li>
+			<li class="share-weixin"><a href="http://w.sohu.com/t2/share.do?url=http%3A%2F%2F127.0.0.1%3A8000%2Fi%2F&picture=http://photocdn.sohu.com/20130423/Img373632456.jpg&title=昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。" target="_blank"></a></li>
+			<li class="share-kongjian"><a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2F127.0.0.1%3A8000%2Fi%2F&desc=昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。&pics=http://photocdn.sohu.com/20130423/Img373632456.jpg" target="_blank"></a></li>
+			<li class="share-weibo"><a href="http://v.t.sina.com.cn/share/share.php?title=昨夜宝兴县一直下雨，余震不断，今天早晨雨还在下，现在刚刚停。记者跟随医疗队进村救援，在灵关镇到宝兴县城的路上再次遇到塌方。从现场情况来看，塌方状况可能比昨天还严重。目前正在全力打通，何时通行暂无法预测。&pic=http://photocdn.sohu.com/20130423/Img373632456.jpg" target="_blank"></a></li>
 		</ul>
 		<div class="ad-2"><div class="ad"><a href=""><img width="1000" src="images/ad-2.png"></a></div></div>
 	</article>
+	<div id="sohu-comment" class="comment">
+		<div id="SOHUCS" sid="373626563"></div>	
+	</div>
+	<div id="changyan_thread"></div>
+	<div class="relative-news">
+		<div class="news-con">
+			<h3 class="tit">相关新闻</h3>
+			<ul class="list">
+				<li><a href="">菲律宾称日籍庭长已任命完成南海问题仲裁员文字</a></li>
+				<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
+				<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
+				<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
+				<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
+			</ul>
+		</div>
+		<div class="ad-3">
+			<div class="ad ad-small"><a href=""><img src="images/ad-3.png"></a></div>
+			<div class="ad ad-big"><a href=""><img src="images/ad-3-big.png"></a></div>
+		</div>
+	</div>
 	<div class="sidebar">
 		<div class="ad-4"><div class="ad"><a href=""><img src="images/ad-4.png"></a></div></div>
 		<div class="comm-list">
@@ -146,38 +170,17 @@
 	</div>
 </div>
 
-<div id="sohu-comment" class="comment">
-	<div id="SOHUCS" sid="373626563"></div>	
-</div>
-
-<div id="changyan_thread"></div>
-
-<div class="relative-news">
-	<div class="news-con">
-		<h3 class="tit">相关新闻</h3>
-		<ul class="list">
-			<li><a href="">菲律宾称日籍庭长已任命完成南海问题仲裁员文字</a></li>
-			<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
-			<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
-			<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
-			<li><a href="">揭秘成人网站办公室 令人神往(图)</a></li>
-		</ul>
-	</div>
-	<div class="ad-3">
-		<div class="ad ad-small"><a href=""><img src="images/ad-3.png"></a></div>
-		<div class="ad ad-big"><a href=""><img src="images/ad-3-big.png"></a></div>
-	</div>
-</div>
-
 <footer>Copyright &copy; 2013 Sohu.com Inc. All Rights Reserved. 搜狐公司 版权所有</footer>
 
 <div class="fix-bar">
-	<a href="#top" class="top"></a>
+	<a href="#top" class="top" id="top"></a>
 	<a href="#sohu-comment" class="comm">1620</a>
 </div>
 <div class="pad-container" id="pad-container">
 	<div class="pad-mask" id="pad-mask"></div>
-	<img src="" id="fullImg">
+	<div class="img-wrap">
+		<img src="" id="fullImg">
+	</div>
 </div>
 <script src="index.js"></script>
 </body>

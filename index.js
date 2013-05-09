@@ -1,11 +1,13 @@
 ﻿(function(iFlag){
 	iFlag = document.body.offsetWidth <= 640 ? 0 : 1;
 	var doc = document,
+		clientHeight = document.documentElement.clientHeight,
 		nav_main = doc.getElementById("nav-main"),
 		nav_search = doc.getElementById("nav-search"),
 		article = doc.getElementById("article"),
 		more_btn = doc.getElementById("article-more"),
-		pad_container = doc.getElementById("pad-container");
+		pad_container = doc.getElementById("pad-container"),
+		sTop = doc.getElementById("top");
 
 	var controller = {
 		initialize : function(){
@@ -39,11 +41,11 @@
 			}
 			else{
 				window.changyan_topic_id = "373626563";
-				window.changyan_has_index_tab = false;
+				window.changyan_has_index_tab = true;
 				window.changyan_default_index = "hot";
 				window.changyan_page_limit = "10";
 				window.changyan_textarea_first = true;
-				window.changyan_has_show_more = false;
+				window.changyan_has_show_more = true;
 				window.changyan_has_to_top = false;
 				window.changyan_textarea_tip = "我来说两句";
 				window.changyan_posted_tip = "发表成功，感谢您的参与";
@@ -134,33 +136,46 @@
 					controller.imageClick(this);
 				};
 			}
+		},
+		scrollFunc : function(){
+			if(doc.body.scrollTop > clientHeight*3)
+				sTop.style.display = "block";
+			else
+				sTop.style.display = "none";
 		}
 	};
 
 	var bindEvent = function(){
-		doc.getElementById("nav-main-btn").onclick = function(){
+		doc.getElementById("nav-main-btn").ontouchend = function(){
 			controller.toggleNavMain()
 		};
-		doc.getElementById("nav-search-btn").onclick = function(){
+		doc.getElementById("nav-search-btn").ontouchend = function(){
 			controller.toggleNavSearch()
 		};
-		doc.body.onclick = function(e){
+		doc.body.ontouchend = function(e){
 			controller.hideNavPanel(e);
 		};
 		more_btn.onclick = function(){
 			controller.getMoreContent();
 		};
+		pad_container.getElementsByTagName("img")[0].onclick = function(){
+			controller.hideMask();
+		}
 		pad_container.onclick = function(){
 			controller.hideMask();
 		};
-		pad_container.ontouchstart = function(){
+		pad_container.ontouchstart = function(event){
+			controller.hideMask();
+			event.preventDefault();
 			return false;
 		};
-		pad_container.ontouchmove = function(){
+		sTop.onclick = function(){
+			doc.body.scrollTop = 0;
+			sTop.style.display = "none";
 			return false;
 		};
-		pad_container.ontouchend = function(){
-			return false;
+		doc.body.ontouchmove = function(){
+			controller.scrollFunc();
 		};
 		controller.bindImages(article.getElementsByTagName("img"));
 	};

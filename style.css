@@ -179,12 +179,12 @@ footer{line-height:1.375rem; font-size:0.5625rem; background-color:#eee; color:#
 
 /*ipad landscape */
 @media screen and (min-width:1024px){
-	.main-content{position:relative; margin:0 1.875em 2em; padding-right:12.875em; overflow:hidden;}
+	.main-content{position:relative; margin:0 1.875em 2em; padding-right:12.875em; background:url(images/sidebar.png) 100% 0 repeat-y;}
 	.main-content article{padding:0;}
 	.comment{margin:2em 0 0;}
 	.relative-news{margin:0;}
-	.main-content .sidebar{display:block; position:absolute; right:0; top:0; width:10.625em; padding-top:2.25em;}
-	.sidebar .comm-list{margin-top:1.25em; border-top:3px solid #336892; background-color:#f7f7f7; padding-bottom:5000px; margin-bottom:-5000px;}
+	.main-content .sidebar{display:block; position:absolute; right:0; top:0; width:10.625em;}
+	.sidebar .comm-list{border-top:3px solid #336892; background-color:#f7f7f7;}
 	.sidebar .comm-list h3{font-size:1.125em; font-weight:bold; text-align:center; padding-top:1rem;}
 	.sidebar .list{padding:1em 0.875em 0;}
 	.sidebar .list dl{padding-bottom:2em;}
@@ -193,4 +193,5 @@ footer{line-height:1.375rem; font-size:0.5625rem; background-color:#eee; color:#
 	.sidebar .list dd{font-size:0.75em; line-height:1.125rem;}
 	.ad-3 .ad-small{display:none;}
 	.ad-3 .ad-big{display:block;}
+	.blank225{height:2.25em; background-color:#fff;}
 }

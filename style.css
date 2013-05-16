@@ -48,7 +48,7 @@ article .article-desc .source em{margin-right:0.5em;}
 article .article-desc a{color:#059;}
 article .article-summary{padding:0.875em 1.75em; line-height:1.875em; border:1px solid #e8e8e8; text-indent:2em;color:#999; margin-bottom:0.5em;}
 article .article-pic{text-align:center; padding:0.125rem 0;}
-article .article-pic a{position:relative; display:inline-block;}
+article .article-pic a{position:relative; display:inline-block; max-width:100%;}
 article .article-pic a span{position:absolute; left:0; bottom:0; width:100%; height:2em; font-size:0.8em; line-height:2em; text-align:center; background-color:rgba(0, 0, 0, 0.4); color:#fff; overflow:hidden;}
 article  p{font-size:1em; line-height:1.625em; color:#333; text-indent:2em; padding:0.75em 0;}
 article .video{max-width:450px; margin:0 auto; padding: 0.875em 0;}
@@ -141,7 +141,7 @@ footer{line-height:1.375rem; font-size:0.5625rem; background-color:#eee; color:#
 	.main-content{margin-bottom:2em;}
 	.relative-news{padding-bottom:0;}
 	article{padding:0 1.875em;}
-	article .video video,article .video embed{height:375px;}
+	article .video video,article .video embed,article .video object{height:375px;}
 	article .article-pic{max-width:450px; max-height:350px; overflow:hidden; margin:0 auto; padding:1.125rem 0;}
 	article  p{line-height: 1.75em; padding: 0.875em 0;}
 	article .article-share{text-align:right;}
@@ -169,7 +169,7 @@ footer{line-height:1.375rem; font-size:0.5625rem; background-color:#eee; color:#
 	.pad-container{display: none; position:fixed; left:0; top:0; width:100%; height:100%;z-index:99998;text-align: center;}
 	.pad-container-show{display: block;}
 	.pad-mask{position:fixed;width:100%; height:100%; background-color:#000; opacity:0.7;}
-	.pad-container .img-wrap{position:relative; width:100%; height:100%; z-index: 99999; text-align:center; vertical-align:middle; display: -webkit-box; -webkit-box-orient: horizontal; -webkit-box-pack: center;  -webkit-box-align: center; display: -moz-box; -moz-box-orient: horizontal; -moz-box-pack: center; -moz-box-align: center; display: box; box-orient: horizontal; box-pack: center; box-align: center;}
+	.pad-container .img-wrap{position:relative; width:100%; height:100%; z-index: 99999; text-align:center; vertical-align:middle; display: -webkit-box; -webkit-box-orient: horizontal; -webkit-box-pack: center;  -webkit-box-align: center; display: -moz-box; -moz-box-orient: horizontal; -moz-box-pack: center; -moz-box-align: center; display: box; box-orient: horizontal; box-pack: center; box-align: center; display:-ms-flexbox; -ms-flex-direction:coloum; -ms-flex-pack: center; -ms-flex-align: center;}
 	.pad-container img{vertical-align:middle;}
 }
 

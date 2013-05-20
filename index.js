@@ -12,7 +12,7 @@
 	var controller = {
 		initialize : function(){
 			if(iFlag){
-				var entityId = 373626563;
+				var entityId = 3736265632;
 				// document.domain = "sohu.com";
 				if(entityId){
 					document.getElementById('SOHUCS').setAttribute('sid',entityId);                
